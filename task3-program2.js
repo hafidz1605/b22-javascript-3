@@ -9,8 +9,10 @@ const timerDetik = (waktu)=>{
 function timer(detik){
 
     timerDetik(detik).then((data) => {
-        console.log(`${detik} sudah berlalu`)
+        console.log(`${detik} detik sudah berlalu`)
       })
     }
 
     timer(10)
+
+    
